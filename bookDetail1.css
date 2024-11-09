@@ -15,16 +15,18 @@ aside{
 table {
     font-family: 'Times New Roman', Times, serif;
     font-size: small;
-    border-spacing: 1vw;
+    border-spacing: 4vw;
+    padding-left: 30%;
+    
+   
 }
 th{
 
     text-align: center;
     font-size: small;
-    border: 1px solid #000;
     border-collapse: collapse;
-    padding: 3px;
-    
+    padding: 10px 18px 10px 18px;
+    border-radius: 7px; /* Rounds the corners of the table */
     
 }
 section img {
