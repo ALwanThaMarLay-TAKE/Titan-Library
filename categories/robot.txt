@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /login/
+Disallow: /signup/
+Disallow: /checkout/
+
+User-agent: Googlebot
+Disallow: /low-quality/
+Disallow: /duplicate-content/
