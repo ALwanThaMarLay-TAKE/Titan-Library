@@ -230,8 +230,10 @@ section.home {
 .login-form-container form .btn {
     text-align: center;
     width: 100%;
-    margin: 15px 0;
+    height: 20px;
+    margin: 20px 0;
     cursor: pointer;
+    background: #c9c4c4;
 }
 
 .login-form-container form p {
