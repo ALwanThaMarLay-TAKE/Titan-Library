@@ -1,10 +1,9 @@
-User-agent: *
-Disallow: /admin/
-Disallow: /private/
-Disallow: /login/
-Disallow: /signup/
-Disallow: /checkout/
+//robots.txt
 
-User-agent: Googlebot
-Disallow: /low-quality/
-Disallow: /duplicate-content/
+# Block all crawlers for /accounts
+User-agent: *
+Disallow: /accounts
+
+# Allow all crawlers
+User-agent: *
+Allow: /
