@@ -134,6 +134,9 @@ html::-webkit-scrollbar-thumb {
   z-index: 100;
 }
 
+.stars{
+  color: rgb(16, 16, 16);
+}
 
 /* bottom navbar */
 
