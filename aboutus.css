@@ -83,7 +83,7 @@ a {
   opacity: 0;
 }
 .bgImg {
-  width: 100vw;
+  width: 100%;
   background-image: url("./assects/aboutus.jpg");
   height: auto;
   display: flex;
@@ -161,7 +161,7 @@ a {
   transition: all 0.5s ease-in-out;
   opacity: 0;
 
-  transform: translateX(100px);
+  transform: translateX(50px);
 }
 .textWhywe p {
   font-size: 24px;
@@ -181,7 +181,7 @@ a {
   opacity: 0;
   transition: all 0.5s ease-in-out;
 
-  transform: translateX(100px);
+  transform: translateX(50px);
 }
 .textbenefit {
   grid-column-start: 1;
