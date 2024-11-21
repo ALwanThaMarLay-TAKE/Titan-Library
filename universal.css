@@ -12,6 +12,7 @@
   --ucs-color: #089da1;
   --paleblue: rgb(200, 227, 238);
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -22,6 +23,7 @@
   border: none;
   text-decoration: none;
 }
+
 html::-webkit-scrollbar {
   width: 10px;
 }
@@ -39,6 +41,7 @@ html::-webkit-scrollbar-thumb {
 .header {
   font-size: 62.5%;
 }
+
 .header .header-1 {
   background: #fff;
   padding: 15px 9%;
@@ -140,44 +143,47 @@ html::-webkit-scrollbar-thumb {
 
 /* bottom navbar */
 
-.bottom-navbar{
+.bottom-navbar {
   text-align: center;
   background: var(--ucs-color);
   position: fixed;
-  bottom: 0; left: 0; right: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   z-index: 1000;
   display: none;
 }
 
-.bottom-navbar a{
+.bottom-navbar a {
   font-size: 25px;
   padding: 20px;
   color: #fff;
 }
 
-.bottom-navbar a:hover{
+.bottom-navbar a:hover {
   background: var(--dark-color);
 }
 
 /* login form */
 
-.login-form-container{
+.login-form-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(255,255,255,.9);
+  background: rgba(255, 255, 255, .9);
   position: fixed;
-  top:0; right: -105%;
+  top: 0;
+  right: -105%;
   z-index: 10000;
   width: 100%;
   height: 100%;
 }
 
-.login-form-container.active{
+.login-form-container.active {
   right: 0;
 }
 
-.login-form-container form{
+.login-form-container form {
   background: #fff;
   border: var(--border);
   width: 400px;
@@ -187,14 +193,14 @@ html::-webkit-scrollbar-thumb {
   margin: 20px;
 }
 
-.login-form-container form h3{
+.login-form-container form h3 {
   font-size: 25px;
   text-transform: uppercase;
   color: var(--black);
   text-align: center;
 }
 
-.login-form-container form .box{
+.login-form-container form .box {
   width: 100%;
   margin: 7px 0;
   font-size: 16px;
@@ -205,40 +211,43 @@ html::-webkit-scrollbar-thumb {
   text-transform: none;
 }
 
-.login-form-container form .checkbox{
+.login-form-container form .checkbox {
   display: flex;
   align-items: center;
   gap: 5px;
   padding: 10px 0;
 }
 
-.login-form-container form .checkbox label{
+.login-form-container form .checkbox label {
   font-size: 15px;
   color: var(--light-color);
   cursor: pointer;
 }
 
-.login-form-container form .btn{
+.login-form-container form .btn {
   text-align: center;
   width: 100%;
-  margin: 15px 0;
+  height: 20px;
+  margin: 20px 0;
   cursor: pointer;
+  background: #c9c4c4;
 }
 
-.login-form-container form p{
+.login-form-container form p {
   padding-top: 8px;
   color: var(--light-color);
   font-size: 15px;
 }
 
-.login-form-container form p a{
+.login-form-container form p a {
   color: var(--ucs-color);
   text-decoration: underline;
 }
 
-.login-form-container #close-login-btn{
+.login-form-container #close-login-btn {
   position: absolute;
-  top: 15px; right: 25px;
+  top: 15px;
+  right: 25px;
   font-size: 30px;
   color: var(--black);
   cursor: pointer;
@@ -246,55 +255,55 @@ html::-webkit-scrollbar-thumb {
 
 /* footer */
 footer {
-    width: 100%;
-    background: var(--paleblue);
-  }
-  
-  footer .footer_main {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  footer .footer_main .tag {
-    margin: 10px 0;
-  }
-  
-  footer .footer_main .tag img {
-    width: 35px;
-    margin-bottom: 10px;
-  }
-  
-  footer .footer_main .tag h1 {
-    font-size: 25px;
-    margin: 10px 0;
-    color: #000;
-    text-align: left;
-  }
-  
-  footer .footer_main .tag a {
-    display: block;
-    color: black;
-    text-decoration: none;
-    font-size: 14px;
-    margin: 10px 0;
-  }
-  
-  footer .footer_main .tag i {
-    margin-right: 10px;
-    font-size: 14px;
-  }
-  
-  footer .footer_main .tag .social_link i {
-    margin: 0 5px;
-  }
-  
-  footer .end {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 15px;
-    color: #000;
-    font-size: 15px;
-    background: gray;
-  }
+  width: 100%;
+  background: var(--paleblue);
+}
+
+footer .footer_main {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .footer_main .tag {
+  margin: 10px 0;
+}
+
+footer .footer_main .tag img {
+  width: 35px;
+  margin-bottom: 10px;
+}
+
+footer .footer_main .tag h1 {
+  font-size: 25px;
+  margin: 10px 0;
+  color: #000;
+  text-align: left;
+}
+
+footer .footer_main .tag a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+footer .footer_main .tag i {
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+footer .footer_main .tag .social_link i {
+  margin: 0 5px;
+}
+
+footer .end {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  color: #000;
+  font-size: 15px;
+  background: gray;
+}
