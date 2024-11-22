@@ -298,3 +298,7 @@ footer {
     font-size: 15px;
     background: gray;
   }
+  .social_link{
+
+  cursor: pointer;
+  }
