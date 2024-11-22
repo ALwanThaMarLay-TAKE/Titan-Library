@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /private/
+Disallow: /admin/
+Disallow: /settings/
+Allow: /
+
+Sitemap: https://library-titan-123.netlify.app/sitemap.xml
