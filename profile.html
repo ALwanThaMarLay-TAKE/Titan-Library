@@ -125,13 +125,13 @@
                             <a class="list-group-item list-group-item-action" data-toggle="list"
                                 href="#author-list">Followed Author List</a>
                             <!-- Logout button -->
-                            <button type="button" class="list-group-item list-group-item-action logout-btn"
-                                data-toggle="modal" data-target="#exampleModalCenter">
+                            <a href="#" class="list-group-item list-group-item-action logout-btn"
+                                data-toggle="modal" data-target="#logout">
                                 Log Out
-                            </button>
+                            </a>
 
                             <!-- Modal -->
-                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                            <div class="modal fade" id="logout" tabindex="-1" role="dialog"
                                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered" role="document">
                                     <div class="modal-content">
@@ -148,7 +148,7 @@
                                             <button type="button" class="btn btn-secondary"
                                                 data-dismiss="modal">Cancle</button>
                                             <button type="button" class="btn btn-primary"
-                                                style="background-color: teal;">Log Out</button>
+                                                style="background-color: teal;" data-dismiss="modal">Log Out</button>
                                         </div>
                                     </div>
                                 </div>
@@ -159,8 +159,7 @@
                         <div class="tab-content">
 
                             <!-- Current Reading -->
-                            <div class="tab-pane active show
-fade" id="current-reading">
+                            <div class="tab-pane active showfade" id="current-reading">
                                 <!-- Current Reading Books -->
                                 <section class="popular" id="popular">
 
@@ -251,7 +250,7 @@ fade" id="current-reading">
                                                 </div>
                                                 <div class="image">
                                                     <a href="punyakhin2.html"><img src="assects/letkyanlayaung.png"
-                                                            alt="titan-logo"></a>
+                                                         alt="titan-logo"></a>
                                                 </div>
                                                 <div class="content">
                                                     <div class="star">
@@ -640,10 +639,8 @@ fade" id="current-reading">
                             </div>
                             <!-- Author List -->
                             <div class="tab-pane fade" id="author-list">
-                                <!-- Current Reading Books -->
                                 <div class="author-list">
                                     <div class="row">
-
                                         <div class="col-lg-4 col-sm-10 mb-3 ">
                                             <img src="https://www.britishcouncil.org.mm/sites/default/files/ju.png"
                                                 class="img-thumbnail" style=" height: 180px;" alt="user1" />
@@ -712,11 +709,7 @@ fade" id="current-reading">
                                         </div>
 
                                     </div>
-
-
-                                    <!-- Add more author items as needed -->
                                 </div>
-
                             </div>
 
                             <!-- Notifications -->
