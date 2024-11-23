@@ -1,7 +1,21 @@
+
+# robots.txt for example.com
+
+# Allow all search engine bots
 User-agent: *
-Disallow: /private/
+
+# Block admin and login areas
 Disallow: /admin/
-Disallow: /settings/
+Disallow: /login/
+Disallow: /cart/
+Disallow: /checkout/
+
+# Block temporary and sensitive files
+Disallow: /tmp/
+Disallow: /private/
+
+# Allow all public content to be crawled
 Allow: /
 
+# Specify the location of the sitemap
 Sitemap: https://library-titan-123.netlify.app/sitemap.xml
