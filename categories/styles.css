@@ -344,10 +344,7 @@ section.home {
     padding-top: 10px;
 }
 
-.stars i {
-    font-size: 12px; /* Smaller size for the stars */
-    color: black; /* Star color */
-}
+
 
 .book-icon {
     width: 30px; /* Button width */
@@ -398,9 +395,7 @@ section.home {
         width: 80px; /* Smaller book image */
     }
 
-    .stars i {
-        font-size: 10px; /* Reduce star size */
-    }
+
 
     .icon {
         width: 25px; /* Smaller button size */
@@ -426,9 +421,7 @@ section.home {
         width: 60px; /* Smaller book image */
     }
 
-    .stars i {
-        font-size: 8px; /* Smaller stars */
-    }
+ 
 
     .icon {
         width: 20px; /* Smaller button size */
@@ -458,9 +451,7 @@ section.home {
         width: 120px; /* Larger book image */
     }
 
-    .stars i {
-        font-size: 14px; /* Larger stars */
-    }
+ 
 
     .icon {
         width: 35px; /* Larger button size */
