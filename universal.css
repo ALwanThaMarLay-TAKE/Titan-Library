@@ -306,3 +306,6 @@ footer {
   a[download]{
     color: black
   }
+  .star{
+    display:inline-block;
+  }
