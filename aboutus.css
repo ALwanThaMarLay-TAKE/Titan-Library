@@ -110,9 +110,8 @@ a {
 }
 .bgImg h1::before {
 content: "WE ARE";
-position:absolute;
+position: absolute;
 font-size: 1.17rem;
-top:15px;
 left: 0;
 
 }
